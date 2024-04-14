@@ -1,8 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
     outline: none;
     font-weight: normal;
     text-decoration: none;
@@ -11,7 +10,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: #f0f2f5;
 }
 
@@ -22,6 +21,121 @@ body{
 }
 
 .fb-content p {
-    margin: 275px 600px 0px 190px;
+    margin: 275px 600px 0 190px;
     font-size: 30px;
+}
+
+.right-side {
+    height: 400px;
+    width: 380px;
+    position: absolute;
+    top: 150px;
+    background-color: white;
+    left: 800px;
+    border-radius: 6px;
+    box-shadow: 5px 7px 15px 5px #a9a9a9;
+}
+
+::placeholder {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+
+#text:focus {
+    border: 1.5px solid rgb(68, 113, 248);
+}
+
+#password:focus {
+    border: 1.5px solid rgb(68, 113, 248);
+}
+
+#text {
+    margin: 30px 0 20px 30px;
+    border: 1px solid #cfcdcd;
+    border-radius: 4px;
+    padding: 16px;
+    outline: none;
+    width: 300px;
+}
+
+#password {
+    margin: 0 0 20px 30px;
+    border: 1px solid #cfcdcd;
+    border-radius: 4px;
+    padding: 16px;
+    outline: none;
+    width: 300px;
+}
+
+.log-in-button button:hover {
+    background-color: #0867ffd7;
+}
+
+.log-in-button button {
+    background-color: #0867ff;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 15px;
+    width: 300px;
+    margin: 0 0 0 30px;
+}
+
+.log-in-button button a {
+    color: white;
+}
+
+.fp a {
+    position: absolute;
+    top: 240px;
+    left: 105px;
+    color: blue;
+    font-size: 15px;
+}
+
+.fp a:hover {
+    text-decoration: underline;
+}
+
+.bottom-line-grey {
+    border-bottom: 1.5px solid rgb(199, 199, 199);
+    margin: 50px 30px 0 30px;
+}
+
+.create-an-acc button:hover {
+    background-color: #42b72ae7;
+}
+
+.create-an-acc button {
+    background-color: #3ac51d;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 18px;
+    width: 180px;
+    margin: 30px 0 0 90px;
+}
+
+.create-an-acc button a {
+    color: white;
+}
+
+.page {
+    margin: 60px 0px 0px 18px;
+}
+
+.page p {
+    font-size: 15px;
+    color: black !important;
+}
+
+.page p a {
+    font-weight: 700;
+    color: black !important;
+}
+
+.page p a:hover {
+    text-decoration: underline;
 }
